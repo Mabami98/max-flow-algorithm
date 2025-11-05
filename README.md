@@ -1,6 +1,6 @@
 # Max Flow Algorithms & Bipartite Matching
 
-This repository contains a set of C++ implementations related to network flow algorithms, focusing primarily on the **Ford-Fulkerson method** (via the Edmonds-Karp variant) and its application to **maximum bipartite matching**. The code was developed as part of a university course on algorithms and data structures.
+This repository contains a set of C++ implementations related to network flow algorithms, focusing primarily on the **Ford-Fulkerson method** (via the Edmonds-Karp variant) and its application to **maximum bipartite matching**.
 
 ---
 
@@ -33,9 +33,4 @@ The bipartite matching is implemented as a special case of max flow, where:
 - The right set is connected to a sink.
 - All edges have unit capacity.
 
----
-
-## Compilation
-
-All files are written in standard C++. To compile, use `g++` or any C++17-compatible compiler.
 
